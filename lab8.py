@@ -67,11 +67,11 @@ def load_from_file(filename: str) -> list:
 
 def main():
     items = [
-        Book("B001", "Deep Learning", 2018, "Ian Goodfellow", 775),
+        Book("B001", "Deep Learning", 2018, "Jose Maruinho", 775),
         Book("B002", "Python Programming", 2023, "John Smith", 500),
         Article("A101", "Quantum Computing", 2022, "Nature", "10.1234/qc567"),
         Article("A102", "AI Ethics", 2024, "Science", "10.1234/ai789"),
-        Podcast("P301", "TechTalk AI", 2023, "Jane Doe", 45),
+        Podcast("P301", "TechTalk AI", 2023, "Arda Turan", 45),
         Podcast("P302", "Future of Computing", 2024, "Bob Wilson", 60)
     ]
 
